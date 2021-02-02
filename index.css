@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    color: #FEFFFF
+}
+
+#logo {
+    visibility: hidden; /* Temporary */
+    position: fixed;
+    font-family: 'Permanent Marker', cursive;
+    color: #DEF2F1;
+    font-size: 1.5vw;
+    background-color:#3AAFA9;
+    border-radius: 50%;
+    height: 9vw;
+    width: 9vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    background-color: #3AAFA9;
+    width: 100%;
+    height: 100%;
+}
+
+#content {
+    background-color: #DEF2F1;
+}
+
+#intro-text {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+#intro-text h1 {
+    font-size: 3vw;
+    margin: 3vw;
+}
+
+#intro-text img {
+    width: 3vw;
+    height: 3vw;
+}
+
+.picture-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.picture-box img {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+}
+
+.text-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-box h1, h2, h3, h4, h5 {
+    margin: 2vw;
+}
+
+.text-box h2 {
+    font-size: 3vw;
+}
+
+.text-box h3 {
+    font-size: 2vw;
+}
+
+.text-box h4 {
+    font-size: 1.5vw;
+}
+
+.text-box h5 {
+    font-size: 1.25vw;
+}
+
+.image-box img {
+    width: 25vw;
+    height: 25vw;
+}
+
+.left-box {
+    width: 50%;
+    float: left;
+}
+
+.right-box {
+    width: 50%;
+    float: right;
+}
+
+.section {
+    margin: 0;
+    padding-top: 10vw;
+    display: block;
+    width: 100%;
+}
+
+.label {
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+}
+
+.pictures {
+    width: 55%;
+}
+
+.label h2 {
+    text-decoration: underline;
+    font-size: 3vw;
+    color: #17252A;
+}
+
+.left-content {
+    float: left;
+    margin-left: 10vw;
+}
+
+.two-by-two {
+    width: 50vw;
+    height: 50vw;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.two-by-two td, .three-by-two td  {
+    width: 25vw;
+    height: 25vw;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.right-display {
+    float: right;
+}
+
+.left-display {
+    float: left;
+}
+
+#education {
+    height: 58vw;
+}
+
+#jobs {
+    height: 85vw;
+}
+
+.card-entry {
+    width: 32%;
+}
+
+.card-body h4, .card-body p, .card-body u{
+    color: #17252A;
+}
+
+.card-body {
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.card-body p {
+    font-size: 0.9vw;
+}
+
+.card {
+    border-radius: 30%;
+}
+
+.card-picture, #carousel-CMSC320, .w-100 {
+    border-radius: 5%;
+}
+
+.card-body .btn {
+   font-size: 1vw;
+}
+
+.bottom-float {
+    animation-name: bottom-float;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes bottom-float {
+    0% { transform: translate(0, 1vw);
+         opacity: 0;
+    }
+
+    100% { transform: translate(0, 0);
+            opacity: 1
+       }
+}
+
+#title-1 {
+    animation-name: bottom-float;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 0.85s;
+}
+
+#title-2 {
+    animation-name: bottom-float;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+}
+
+#title-3 {
+    animation-name: bottom-float;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 1.15s;
+}
+
+#title-4 {
+    animation-name: bottom-float;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 1.3s;
+}
+
+#projects {
+    height: 65vw;
+}
+
+#about-me {
+    background-color: #17252A;
+    width: 100%;
+    height: 90%;
+}
+
+#about-me h1 {
+    font-size: 4vw;
+}
+
+#about-me p {
+    font-size: 1.25vw;
+    margin: 0 2.5vw;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: #FEFFFF;
+}
+
+#socials img {
+    width: 2vw;
+    height: 2vw;
+    margin: 2vw 3vw;
+}
