@@ -180,6 +180,11 @@
     text-align: center;
 }
 
+.card-body img {
+    width: 25vw;
+    height: 19vw;
+}
+
 .card-body p {
     font-size: 0.9vw;
 }
