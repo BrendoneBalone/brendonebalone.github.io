@@ -182,7 +182,7 @@
 
 .card-body img {
     width: 25vw;
-    height: 19vw;
+    height: auto;
 }
 
 .card-body p {
